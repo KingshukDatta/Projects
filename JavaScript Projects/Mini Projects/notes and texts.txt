@@ -1,0 +1,35 @@
+## Before coding, we need to prepare so that everything will run smoothly.
+1. npm init.
+2. if not setup, just hit enter.
+3. this will create a jason file.
+4. npm i prompt-sync. -> this package for user input.
+
+
+## There are two ways to write a function.
+1. 
+function deposit() {
+  return 1
+}
+
+const x = deposit() // calling the function
+
+2. 
+const deposit = () => {
+  return 1
+};
+
+## to run the code in node js -> 
+go to terminal -> type "node project_name.js" -> hit enter.
+
+
+## const depositAmount = prompt("Enter a deposit amount: "); -> by default this is string.
+## const numberDepositAmount = parseFloat(depositAmount); -> here parseFloat() will change any string to float number.
+if the parseFloat() function get any written string like "hello" it will return "NaN".
+
+
+## isNaN() -> check if the return is "NaN".
+
+## let -> is a data type that can be changed unlike the "const" which means constant.
+
+
+## it is good practice to declare global variables at first then function then main.
